@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +28,7 @@
 				</div>
 			</div>
 			<div>
-				<img src="images/img03.png" width="1000" height="40" alt=""/>
+				<img src="images/img03.png" width="1000" height="40" alt="" />
 			</div>
 		</div>
 		<!-- end #header -->
@@ -54,7 +55,8 @@
 						<p>Dirijase a la pestaña de <a href="listar.php"><b>Listar</b></a></p>
 						<br>
 						<h3>Borrar usuarios:</h3>
-						<p>Dirijase a la pestaña de <a href="borrar.php"><b>Eliminar</b></a>, marque los usuarios que desee eliminar y pulse <b>Eliminar Usuarios</b>.</p>
+						<p>Dirijase a la pestaña de <a href="borrar.php"><b>Eliminar</b></a>, marque los usuarios que desee eliminar y
+							pulse <b>Eliminar Usuarios</b>.</p>
 						<br>
 					</div>
 				</div>
@@ -65,13 +67,13 @@
 		</div>
 		<div class="container"><img src="images/img03.png" width="1000" height="40" alt="" /></div>
 		<!-- end #page -->
-	
-	<footer>
-		<div id="footer-content"></div>
+
+		<footer>
+			<div id="footer-content"></div>
 			<div id="footer">
 				<p>&copy; Emanuel Lautaro - 2018 </p>
-	</footer>
-	<!-- end #footer -->
+		</footer>
+		<!-- end #footer -->
 </body>
 
 </html>

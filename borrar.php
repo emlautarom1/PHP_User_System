@@ -42,9 +42,9 @@
 					<h2>Sistema de Administraci&oacute;n de Usuarios</h2>
 					<p class="meta"><span class="date">
 							<?php echo date("d - m - Y"); ?></span></p>
-						<div style="clear: both;">&nbsp;</div>
+					<div style="clear: both;">&nbsp;</div>
 					<div class="entry">
-					<!-- User Table -->
+						<!-- User Table -->
 						<?php 
 							if($_SERVER["REQUEST_METHOD"] == "POST"){
 								$toDelete = getToDeleteArray();
@@ -76,8 +76,8 @@
 	</div>
 	<footer>
 		<div id="footer-content"></div>
-			<div id="footer">
-				<p>&copy; Emanuel Lautaro - 2018 </p>
+		<div id="footer">
+			<p>&copy; Emanuel Lautaro - 2018 </p>
 	</footer>
 	<!-- end #footer -->
 </body>

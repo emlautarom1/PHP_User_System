@@ -17,36 +17,36 @@
 </head>
 
 <body>
-<div id="wrapper">
-	<div id="header-wrapper" class="container">
-	<div id="header" class="container">
-		<div id="logo">
-			<h1><a href="#">Usuarios</a></h1>
+	<div id="wrapper">
+		<div id="header-wrapper" class="container">
+			<div id="header" class="container">
+				<div id="logo">
+					<h1><a href="#">Usuarios</a></h1>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="index.php">Inicio</a></li>
+						<li><a href="agregar.php">Nuevo</a></li>
+						<li class="current_page_item"><a href="listar.php">Listar</a></li>
+						<li><a href="borrar.php">eliminar</a></li>
+					</ul>
+				</div>
+			</div>
+			<div>
+				<img src="images/img03.png" width="1000" height="40" alt="" />
+			</div>
 		</div>
-		<div id="menu">
-			<ul>
-				<li><a href="index.php">Inicio</a></li>
-				<li><a href="agregar.php">Nuevo</a></li>
-				<li class="current_page_item"><a href="listar.php">Listar</a></li>
-				<li><a href="borrar.php">eliminar</a></li>
-			</ul>
-		</div>
-	</div>
-	<div>
-		<img src="images/img03.png" width="1000" height="40" alt="" />
-	</div>
-	</div>
-	<!-- end #header -->
+		<!-- end #header -->
 
-	<div id="page">
-		<div id="content">
-			<div class="post">
-				<h2>Sistema de Administraci&oacute;n de Usuarios</h2>
-				<p class="meta"><span class="date">
-					<?php echo date("d - m - Y"); ?></span></p>
+		<div id="page">
+			<div id="content">
+				<div class="post">
+					<h2>Sistema de Administraci&oacute;n de Usuarios</h2>
+					<p class="meta"><span class="date">
+							<?php echo date("d - m - Y"); ?></span></p>
 					<div style="clear: both;">&nbsp;</div>
-				<div class="entry">
-				<!-- User Table -->
+					<div class="entry">
+						<!-- User Table -->
 						<?php 
 							echoUserList();
 						?>
@@ -56,15 +56,16 @@
 			<div style="clear: both;">&nbsp;</div>
 		</div>
 		<!-- end #content -->
-	  <div class="container"><img src="images/img03.png" width="1000" height="40" alt="" /></div>
+		<div class="container"><img src="images/img03.png" width="1000" height="40" alt="" /></div>
 	</div>
 	<!-- end #page -->
 	</div>
 	<footer>
 		<div id="footer-content"></div>
-			<div id="footer">
-				<p>&copy; Emanuel Lautaro - 2018 </p>
+		<div id="footer">
+			<p>&copy; Emanuel Lautaro - 2018 </p>
 	</footer>
 	<!-- end #footer -->
 </body>
+
 </html>
