@@ -82,7 +82,8 @@
         // Print user array as td
         if (!empty($data)) {
             // If $data is not empty, display delete table form
-            print("<form method=\"post\" action=\"borrar.php\">");
+            $selfPage = htmlspecialchars($_SERVER["PHP_SELF"]);
+            print("<form method=\"post\" action=\"$selfPage\">");
             print('
             <table class="usertable">
                 <tr>
