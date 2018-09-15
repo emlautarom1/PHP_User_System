@@ -26,8 +26,8 @@
         } else {
             // Else, display error.
             print("
-            <h2>Ha ocurrido un error!</h2>
-            <h1>No hay usuarios que mostrar</h1>
+            <h1>¡Ha ocurrido un error!</h1>
+            <h2>No hay usuarios que mostrar.</h2>
             ");
         }
     }
@@ -111,8 +111,8 @@
         } else {
             // Else, display error.
             print("
-            <h2>Ha ocurrido un error!</h2>
-            <h1>No hay usuarios que mostrar</h1>
+            <h1>¡Ha ocurrido un error!</h1>
+            <h2>No hay usuarios que mostrar.</h2>
             ");
         }
     }

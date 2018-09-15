@@ -35,7 +35,7 @@
 		<div id="page">
 			<div id="content">
 				<div class="post">
-					<h2>Sistema de Administraci&oacute;n de Usuarios</h2>
+					<h1>Sistema de Administraci&oacute;n de Usuarios</h1>
 					<p class="meta">
 						<span class="date">
 							<?php

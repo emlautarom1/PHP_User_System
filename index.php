@@ -35,7 +35,7 @@
 		<div id="page">
 			<div id="content">
 				<div class="post">
-					<h2>Sistema de Administraci&oacute;n de Usuarios</h2>
+					<h1>Sistema de Administraci&oacute;n de Usuarios</h1>
 					<p class="meta">
 						<span class="date">
 							<?php
@@ -45,15 +45,15 @@
 					</p>
 					<div style="clear: both;">&nbsp;</div>
 					<div class="entry">
-						<h1>Funcionamiento del Sistema:</h2>
-						<hr>
-						<h3>Agregar un nuevo usuario</h3>
+						<h2>Funcionamiento del Sistema:</h2>
+						<br>
+						<h3>Agregar un nuevo usuario:</h3>
 						<p>Dirijase a la pestaña de <a href="agregar.php"><b>Nuevo</b></a> y complete el formulario.</p>
 						<br>
-						<h3>Listar usuarios registrados</h3>
+						<h3>Listar usuarios registrados:</h3>
 						<p>Dirijase a la pestaña de <a href="listar.php"><b>Listar</b></a></p>
 						<br>
-						<h3>Borrar usuarios</h3>
+						<h3>Borrar usuarios:</h3>
 						<p>Dirijase a la pestaña de <a href="borrar.php"><b>Eliminar</b></a>, marque los usuarios que desee eliminar y pulse <b>Eliminar Usuarios</b>.</p>
 						<br>
 					</div>
