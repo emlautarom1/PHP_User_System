@@ -54,15 +54,22 @@
 							$errorList = validateUser($user);
 							if (noErrorCheck($errorList)) {
 								// If no erros, add user.
-								addUser($user);
-								// Alert box
-								print("
-								<script language=\"javascript\">
-								alert(\"Se ha cargado el usuario al sistema.\")
-								</script>
-								");
-								// Set user empty. Errors already empty.
-								$user = emptyUser();
+								if (addUser($user)) {
+									// Alert box
+									print("
+									<script language=\"javascript\">
+									alert(\"Se ha cargado el usuario al sistema.\")
+									</script>
+									");
+									// Reset user
+									$user = emptyUser();
+								} else {
+									print("
+									<script language=\"javascript\">
+									alert(\"Hubo un problema al cargar el usuario.\")
+									</script>
+									");
+								}
 							}
 						}
 						else {
